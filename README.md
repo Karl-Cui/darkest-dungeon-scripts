@@ -37,6 +37,6 @@ python change_times.py "C:\Users\karl\Documents\Darkest Dungeon\scripts\timescri
 
 Note that this works with the time scripts **currently** in the `timescripts`, so that means if that if I run this twice, my battle animation speeds will be 4 times their original speed! However, running it twice will not overwrite the original backup files--those will still remain at the original speed.
 
-#FAQ
+## FAQ
 
 Feel free to contact me if you have any questions or comments!

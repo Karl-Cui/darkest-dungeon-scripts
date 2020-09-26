@@ -63,11 +63,11 @@ def speed_up(folder):
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Change battle speeds in Darkest Dungeon. This script creates a"
-                                                 "backup of all of the scripts used for timing, then edits the values"
+    parser = argparse.ArgumentParser(description="Change battle speeds in Darkest Dungeon. This script creates a "
+                                                 "backup of all of the scripts used for timing, then edits the values "
                                                  "in these timing scripts to speed up battle.")
 
-    parser.add_argument("folder", help="Scripts folder")
+    parser.add_argument("folder", help="Timescripts folder. This should can be found in [GAME FOLDER]/scripts")
     parser.add_argument("--speed", type=int, default=2,
                         help="Factor to speed up battle animation by. If this is not given, by default the battle "
                              "animations will be at double its original speed.")
